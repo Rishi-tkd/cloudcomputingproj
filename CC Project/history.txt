@@ -1,0 +1,851 @@
+  1  sudo apt update
+    2  sudo apt upgrade
+    3  ifconfig
+    4  sudo apt install net-tools
+    5  gcc --version
+    6  sudo apt install gcc
+    7  sudo apt install g++
+    8  gcc --version
+    9  g++ version
+   10  g++ --version
+   11  java -version
+   12  java --version
+   13  sudo apt install openjdk-8-jre-headless
+   14  jaavc
+   15  sudo apt install openjdk-8-jdk-headless
+   16  javac
+   17  java -version
+   18  clear
+   19  gedit sample.c
+   20  gcc sample.c
+   21  ./a.out
+   22  gedit swap.c
+   23  gcc swap.c
+   24  ./a.out
+   25  gedit integer.cpp
+   26  g++ integer.cpp
+   27  ./a.out
+   28  gedit HellWorld.java
+   29  javac HelloWorld.java
+   30  ls
+   31  javac HellWorld.java
+   32  java HellWorld
+   33  java HellWorld.java
+   34  gedit GFG.java
+   35  javac GFG.java
+   36  java GFG.java
+   37  java GFG
+   38  javac HellWorld.java
+   39  java HellWorld
+   40  javac HelloWorld.java
+   41  java HelloWorld
+   42  gedit HelloWorld.java
+   43  javac HelloWorld.java
+   44  java Helloworld
+   45  java Helloworld.java
+   46  javac
+   47  java -version
+   48  javac GFG.java
+   49  java GFG
+   50  cd Downloads/
+   51  ls
+   52  javac DigitalClock.java
+   53  appletviewer DigitalClock
+   54  sudo apt install openjdk-8-jdk
+   55  javac DigitalClock.java
+   56  appletviewer DigitalClock
+   57  javac DigitalClock.java
+   58  cd Downloads/
+   59  javac DigitalClock.java
+   60  appletviewer DigitalClock
+   61  appletviewer DigitalClock.java
+   62  javac GraphicsDemo.java
+   63  appletviewer GraphicsDemo.java
+   64  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb~
+   65  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb~
+   66  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   67  sudo dpkg -i google-chrome-stable_current_amd64.deb
+   68  ifconfig
+   69  su administrator
+   70  sudo bash
+   71  cd /
+   72  vim 
+   73  vim
+   74  sudo apt install vim 
+   75  vim
+   76  vim file1.txt
+   77  vim
+   78  vim file2.txt
+   79  vim file1.txt
+   80  vim file2.txt
+   81  nano file2.txt
+   82  vim file1.txt
+   83  grep "cloud" file.txt 
+   84  grep "cloud" file2.txt 
+   85  grep -e "computing" -e "w*" file2.txt
+   86  grep -l -e "cloud"-e "c*" file2.txt
+   87  grep -l -e "computing"-e "c*" file2.txt
+   88  grep -l -e "computing"-e "cloud" file2.txt
+   89  cd /
+   90  ls
+   91  cd home
+   92  ls
+   93  cd skacas
+   94  ls
+   95  cd Desktop
+   96  cd cloud
+   97  grep cloud
+   98  grep "cloud" file2.txt
+   99  mkdir cloud
+  100  cd cloud
+  101  touch file1.txt file2.txt
+  102  ls
+  103  cd...
+  104  mkdir cloud
+  105  mkdir computing
+  106  cd cloud
+  107  cd Desktop
+  108  cd skcas
+  109  cd ..
+  110  ls
+  111  cd home
+  112  ls
+  113  cd skacas
+  114  ls
+  115  cd /
+  116  cd home
+  117  cd skacas
+  118  ls
+  119  cd /
+  120  cd home
+  121  cd skacas
+  122  cd /
+  123  ls
+  124  cd Desktop
+  125  cd skacas
+  126  mkdir
+  127  cd /
+  128  cd home
+  129  ls
+  130  cd administrator
+  131  cd Desktop
+  132  ls
+  133  mkdir cloud1
+  134  mkdir use1
+  135  cd cloud
+  136  cd  use1
+  137  touch use1.txt
+  138  touch use2.txt
+  139  ls
+  140  cat > use1.txt
+  141  cat > use2
+  142  cat > use2.txt
+  143  grep "hello" use1.txt use2.txt 
+  144  cd /
+  145  cd home
+  146  cd administrator
+  147  la
+  148  ls
+  149  cd Desktop
+  150  cd usr
+  151  cd cloud
+  152  mkdir usr1
+  153  cd usr1
+  154  touch usr1.txt
+  155  touch usr2.txt
+  156  cat > usr1.txt
+  157  cat > usr2.txt
+  158  cd /
+  159  cd home
+  160  cd administrator
+  161  ls
+  162  cd Desktop
+  163  mkdir del
+  164  cd del
+  165  touch del.txt
+  166  touch del1.txt
+  167  ls
+  168  cat > del.txt
+  169  cat > del1.txt
+  170  grep -e "hello" del1.txt del.txt
+  171  cd /
+  172  cd home
+  173  cd skacas
+  174  cd sk
+  175  ls
+  176  cs skacas
+  177  cd skacas
+  178  cd administartor
+  179  cd administrator
+  180  ls
+  181  ls
+  182  mkdir cloud1
+  183  cd cloud1
+  184  touch cloud1.txt
+  185  touch cloud2.txt
+  186  ls
+  187  cd...
+  188  cat > cloud1.txt
+  189  cat  cloud1.txt
+  190  cat >> cloud1.txt
+  191  cat  cloud1.txt
+  192  cat > cloud2.txt
+  193  cat  cloud2.txt
+  194  grep "welcome" cloud1.txt cloud2.txt
+  195  grep -e "welcome" -e"w*" cloud1.txt cloud2.txt
+  196  grep -l -e "welcome" -e"w*" cloud1.txt cloud2.txt
+  197  cat cloud1.txt
+  198  cat cloud1.txt | wc -l
+  199  grep "hello" cloud1.txt | wc -l
+  200  grep -r "hello" cat cloud1.txt | wc -l
+  201  cat cloud1.txt | wc -w
+  202  cat cloud1.txt 
+  203  cat cloud1.txt | wc -c
+  204  grep -e "welcome" cloud1.txt
+  205  grep -e "welcome" -e "w*" cloud1.txt cloud2.txt
+  206  grep -r -e "welcome" -e "w*" cloud1.txt cloud2.txt
+  207  grep -l -e "welcome" -e "w*" cloud1.txt cloud2.txt
+  208  grep  -e "welcome" -e "w*,h*" cloud1.txt cloud2.txt
+  209  ls -l
+  210  ls -ld cloud
+  211  ls -ld 
+  212  cd /
+  213  cd -
+  214  cat /etc /passwd
+  215  cat /etc/passwd
+  216  cd /
+  217  cd home
+  218  ls
+  219  cd skacas
+  220  cc ..
+  221  cd ..
+  222  clear
+  223  sudo useradd rishii
+  224  cat /etc/passwd
+  225  sudo passwd rishii
+  226  su rishii
+  227  mkdir cap
+  228  cd home
+  229  ls
+  230  cd administator
+  231  cd administrator
+  232  ls
+  233  cd Desktop
+  234  mkdir clan
+  235  cd clan
+  236  touch castle
+  237  ll castle
+  238  mv castle castle.txt
+  239  ll castle.txt
+  240  chmod a-r castle.txt
+  241  ll castle
+  242  ll castle.txt
+  243  cd ..
+  244  ls - ld
+  245  ls - ld clan
+  246  ls -ld clan
+  247  chmod a-r clan
+  248  ls -ld clan
+  249  cd clan
+  250  ls
+  251  cd ..
+  252  chmod a+r clan
+  253  ls -ld clan
+  254  cd clan
+  255  ls
+  256  clear
+  257  s
+  258  ls
+  259  cd Desktop
+  260  ls
+  261  clear
+  262  cat /etc/passwd
+  263  clear
+  264  touch file.txt
+  265  cat > file.txt
+  266  ll file.txt
+  267  su rishii
+  268  chmod 767 file.txt
+  269  ll file.txt
+  270  su rishii
+  271  clear
+  272  mkdir dir1
+  273  ls
+  274  ls -ld dir1
+  275  chmod o-x dir1
+  276  ls -ld dir1
+  277  su rishii
+  278  chmod 773 dir1
+  279  ls -ld dir1
+  280  su rishii
+  281  cd dir1
+  282  cd ..
+  283  chmod 733 dir1
+  284  ls -ld dir1
+  285  su rishii
+  286  chmod 700 dir1
+  287  ls -ls dir1
+  288  ls -ld dir1
+  289  su rishii
+  290  clear
+  291  ls
+  292  ls -ld dir1
+  293  cd dir1
+  294  cd ..
+  295  su rishii
+  296  chmod 773 dir
+  297  chmod 773 dir1chmod 773 dir1\
+  298  chmod 773 dir1
+  299  ls -ld dir1
+  300  su rishii
+  301  chmod 777 dir1
+  302  ls -ld
+  303  chmod 777 dir1
+  304  ls -ld
+  305  ls -ld dir1
+  306  su rishii
+  307  ls -ld dir1
+  308  su rishii
+  309  mkdir yup
+  310  cd yup
+  311  cd ..
+  312  nano file.txt
+  313  clear
+  314  nano file.txt
+  315  ./file.txt
+  316  ./game.txt
+  317  chmod +x game.txt
+  318  ./game.txt
+  319  mv game.txt game.sh
+  320  ./game.sh
+  321  nano game.txt
+  322  ./game.sh
+  323  ./ game.sh
+  324  clear
+  325  mkdir arth
+  326  cd arth
+  327  ./sub.sh
+  328  chmod +x sub.sh
+  329  ./sub.sh
+  330  chmod +r sub.sh
+  331  ./sub.sh
+  332  nano sub.sh
+  333  ./sub.sh
+  334  clear
+  335  nano sub.sh
+  336  ./sub.sh
+  337  chmod +rwx sub.sh
+  338  ./sub.sh
+  339  chmod +x sub.sh
+  340  ./sub.sh
+  341  nano sub.sh
+  342  ./sub.sh
+  343  nano sub.sh
+  344  ./sub.sh
+  345  nano sub.sh
+  346  ./sub.sh
+  347  nano sub.sh\
+  348  nano goat.sh
+  349  nano goat.sh\
+  350  ./goat.sh
+  351  chmod +x goat.sh
+  352  ./goat.sh
+  353  nano goat.sh\
+  354  pwd
+  355  cd Desktop
+  356  nano goat.sh
+  357  cd home
+  358  clear
+  359  cd ..
+  360  nano goat.sh
+  361  ./goat.sh
+  362  chmod +x goat.sh
+  363  cd /
+  364  cd home
+  365  cd Desktop
+  366  cd Administrator
+  367  ls
+  368  cd administrator
+  369  ls
+  370  cs Desktop
+  371  cd Desktop
+  372  mkdir film
+  373  cd film
+  374  nano glich.sh
+  375  ./glitch.sh
+  376  ./glich.sh
+  377  chmod +x glich.sh
+  378  ./glich.sh
+  379  nano glich.sh
+  380  ./glich.sh
+  381  nano glich.sh
+  382  ./glich.sh
+  383  nano hollow.sh
+  384  ./hollow.sh
+  385  chmod +x hollow.sh
+  386  ./hollow.sh
+  387  nano hollow.sh
+  388  ./hollow.sh
+  389  nano hollow.sh
+  390  ./hollow.sh
+  391  nano hollow.sh
+  392  ./hollow.sh
+  393  nano hollow.sh
+  394  ./hollow.sh
+  395  nano hollow.sh
+  396  ./hollow.sh
+  397  nano hollow.sh
+  398  ./hollow.sh
+  399  nano while.sh
+  400  user del rishii
+  401  del user rishii
+  402  cd /
+  403  cd home
+  404  cd Desktop
+  405  lc
+  406  ls
+  407  cd skacas
+  408  cd administrator
+  409  ls
+  410  cd Desktop
+  411  mkdir cloud
+  412  cd cloud
+  413  rm cloud
+  414  cd ..
+  415  rm cloud
+  416  rm -r cloud
+  417  clear
+  418  git version
+  419  mkdir cloud
+  420  cd cloud
+  421  git init
+  422  git config
+  423  git config --list
+  424  git config --global user.name "rishikeshk"
+  425  git config --list
+  426  git config --global user.name "24bsai244rishikeshk@skacas.ac.in
+  427  cd ..
+  428  git congig --global user.email "24bsai244rishikeshk@skacas.ac.in
+  429  git congig --global user.email "24bsai244rishikeshk@skacas.ac.in"
+  430  git config --global user.email "24bsai244rishikeshk@skacas.ac.in"
+  431  git config --list
+  432  git branch -v
+  433  git remote -v
+  434  git config --global init.defaultBranch main
+  435  git config --list
+  436  git clone https://github.com/Rishi-tkd/rishi-cloud.git
+  437  ls
+  438  cd rishi-cloud
+  439  ls
+  440  cd README.md
+  441  ls
+  442  cat README.md
+  443  cat > README.md
+  444  git config --list
+  445  git config --global core.eol lf
+  446  git config --list
+  447  git config --global core.ignorecase true
+  448  git config --list
+  449  git config --global core.autocrlf input
+  450  git config --list
+  451  ls
+  452  cd ..
+  453  touch hoop.txt
+  454  ls
+  455  cd ..
+  456  ls
+  457  LS
+  458  ls
+  459  cd /
+  460  cd Desktop
+  461  cd home
+  462  cd skacas
+  463  cd administrator
+  464  cd Desktop
+  465  mkdir OTP
+  466  cd OTP
+  467  git init
+  468  git config --list
+  469  clear
+  470  git config --list
+  471  git clone https://github.com/Rishi-tkd/crizx.git
+  472  git config --list
+  473  ld
+  474  ls
+  475  cd crizx
+  476  cat > crizx
+  477  ls
+  478  cat README.md
+  479  cat > README.md
+  480  cat README.md
+  481  ls
+  482  git add
+  483  git --help
+  484  git config --add crizx
+  485  git add
+  486  git add<crizx>
+  487  git add <crizx>
+  488  cd ..
+  489  touch otp.txt
+  490  ls
+  491  cat > otp.txt
+  492  git add otp.txt
+  493  cat otp.txt
+  494  cat > otp.txt
+  495  git commit -m "first commit"
+  496  git config --list
+  497  pwd
+  498  git config --list
+  499  git status
+  500  git add otp.txt
+  501  git add crizx
+  502  git status
+  503  git add crizx
+  504  git status
+  505  rm crizx
+  506  git status
+  507  git commit "second commit"
+  508  git commit -m "second commit"
+  509  git status
+  510  git add otp.txt
+  511  git status
+  512  git add crizx
+  513  git status
+  514  git add crizxx
+  515  git add crizx
+  516  git status
+  517  git restore --staged crizx
+  518  git status
+  519  git add crizx
+  520  git status
+  521  git add crizx
+  522  cd..
+  523  cd ..
+  524  clear
+  525  mkdir docomo
+  526  cd docomo
+  527  touch sim.txt
+  528  git init
+  529  git config --list
+  530  git clone https://github.com/Rishi-tkd/rishi-cloud.git
+  531  git config --list
+  532  git config --gobal init defaultBranch
+  533  git config --global core.eol lf
+  534  git config --list
+  535  git config --global autocrlf lf
+  536  git config --global autocrf lf
+  537  git config --global core.autocrlf input
+  538  git add sim.txt
+  539  ls
+  540  git commit "first commit"
+  541  git commit -m "first commit"
+  542  git status
+  543  git add rishi-cloud
+  544  git status
+  545  git commit -m "second commit"
+  546  git status
+  547  git push origin main
+  548  git remote -v
+  549  git push origin main
+  550  ls
+  551  mv sim.txt rishi-cloud
+  552  ls
+  553  cd rishi-cloud
+  554  git init
+  555  git config --list
+  556  git config --global core.autocrlf input
+  557  git config --list
+  558  git clone https://github.com/Rishi-tkd/rishi-cloud.git
+  559  git config init
+  560  git config --global init defaultBranch
+  561  git config --list
+  562  git clone https://github.com/Rishi-tkd/rishi-cloud.git
+  563  git config init
+  564  git init
+  565  git config --list
+  566  git config --global core.autocrlf input
+  567  git config --list
+  568  git config --global init defaultBranch
+  569  git config --global core.eol lf
+  570  git config --list
+  571  git config --global core autocrf
+  572  git config --global core.autocrlf lf
+  573  git config --list
+  574  git commit "first commit"
+  575  git config --global core.autocrlf input
+  576  git coonfig --list
+  577  git config --list
+  578  git commit "first commit"
+  579  git config --list
+  580  git commit "second commit"
+  581  git commit "first commit"
+  582  git push origin main
+  583  git remote -v
+  584  git remote set-url origin "https://ghp_ZaIWwcKDM2sZclyiasmAPFQJZfqm14U6tbE@github.com/Rishi-tkd/rishi-cloud"
+  585  git remote -v
+  586  git clone "https://ghp_ZaIWwcKDM2sZclyiasmAPFQJZfqm14U6tbE@github.com/Rishi-tkd/rishi-cloud"
+  587  cd ..
+  588  ls
+  589  cd ..
+  590  clear
+  591  mkdir git
+  592  \cd git
+  593  ls
+  594  git init
+  595  cat > gito
+  596  cd gito
+  597  rm gito
+  598  clear
+  599  get clone "https://ghp_ZaIWwcKDM2sZclyiasmAPFQJZfqm14U6tbE@github.com/rishi-tkd/JJK
+  600  get clone "https://ghp_ZaIWwcKDM2sZclyiasmAPFQJZfqm14U6tbE@github.com/rishi-tkd/JJK"
+  601  git clone "https://ghp_ZaIWwcKDM2sZclyiasmAPFQJZfqm14U6tbE@github.com/rishi-tkd/JJK"
+  602  ls
+  603  cd JJk
+  604  cd JJK
+  605  touch gittest.txt
+  606  cat gittest.txt
+  607  cat > gittest.txt
+  608  ls
+  609  git add gittest.txt
+  610  git config --list
+  611  git status
+  612  git README.md
+  613  git add README.md
+  614  git add gittest.txt
+  615  git status
+  616  git add README.md
+  617  git add gittest.txt
+  618  git status
+  619  git commit "first commit"
+  620  git config --global defaultBranch
+  621  git config --global core defaultBranch
+  622  git config --global core.defaultBranch
+  623  git config --list
+  624  git status
+  625  ls
+  626  git add gittest.txt
+  627  git add README.md
+  628  git status
+  629  git commit -m "cbe"
+  630  git status
+  631  ls
+  632  git status
+  633  git add gittest.txt
+  634  git add README.md
+  635  git status
+  636  git push origin main
+  637  cd /
+  638  cd home
+  639  cd administrator
+  640  cd Desktop
+  641  mkdir Project
+  642  cd Project 
+  643  mkdir code
+  644  mkdir tom
+  645  mkdir sha
+  646  mkdir sanj
+  647  mkdir srn
+  648  mkdir char
+  649  mkdir crizx
+  650  mkdir mon
+  651  mkdir tues
+  652  mkdir wed
+  653  mkdir thurs
+  654  mkdir fri
+  655  cd code
+  656  touch coding.txt
+  657  cat > coding.txt
+  658  cd ..
+  659  cd tom
+  660  touch thom.txt
+  661  cat > thom.txt
+  662  cd ..
+  663  cd sha
+  664  touch cricket.txt
+  665  cat > cricket.txt
+  666  cd ..
+  667  cd sanj
+  668  cd ..
+  669  code
+  670  cd code
+  671  cat > coing.txt
+  672  cat coding.txt
+  673  cat > coding.txt
+  674  cat coding.txt
+  675  cd ..
+  676  cd tom
+  677  cat > thomas.txt
+  678  cat thomas.txt
+  679  cd ..
+  680  cd sha
+  681  cat > cricket.txt
+  682  cd ..
+  683  cd sanj
+  684  touch sanjay.txt
+  685  cd ..
+  686  cd srn
+  687  touch saran.txt
+  688  cd ..
+  689  cd char
+  690  touch character.txt
+  691  cd ..
+  692  cd crizx
+  693  touch rishi.txt
+  694  cd ..
+  695  cd mon
+  696  touch monday.txt
+  697  cd ..
+  698  cd tues
+  699  touch tuesday.txt
+  700  cd ..
+  701  cd wed
+  702  touch wednesday.txt
+  703  cd ..
+  704  cd thurs
+  705  touch thursday.txt
+  706  cd ..
+  707  cd fri
+  708  touch friday.txt
+  709  cd ..
+  710  mv /Desktop/Project/sha/cricket.txt /Desktop/Project/srn/saran.txt
+  711  mv home/administrator/Desktop/Project/sha/cricket.txt /home/administrator/Desktop/Project/srn/saran.txt
+  712  mv /home/administrator/Desktop/Project/sha/cricket.txt /home/administrator/Desktop/Project/srn/saran.txt
+  713  cd tom
+  714  mv thomas.txt thompson.txt
+  715  cd ..
+  716  ls
+  717  touch file.txt
+  718  cd file.txt
+  719  chmod 733 file.txt
+  720  ll
+  721  mkdir backup
+  722  cd backup
+  723  cd ..
+  724  cd sanj
+  725  mv sanjay.txt /home/administrator/Desktop/Project/backup
+  726  cp sanjay.txt /home/administrator/Desktop/Project/sanj
+  727  cd ..
+  728  cd backup
+  729  cp sanjay.txt /home/administrator/Desktop/Project/sanj
+  730  cd .
+  731  cd ..
+  732  cd backup
+  733  ls
+  734  cd ..
+  735  cd char
+  736  rm character.txt
+  737  cd ..
+  738  rm -r char
+  739  ls
+  740  nano filename.txt
+  741  chmod 777 script.sh
+  742  ./script.sh
+  743  history
+  744  grep "touch" -r history
+  745  cd /
+  746  cd Project
+  747  cd ..
+  748  cd home
+  749  cd administrator 
+  750  cd Desktop
+  751  cd Project
+  752  top
+  753  cd /
+  754  cd home
+  755  cd skacas
+  756  lss
+  757  ls
+  758  cd administrator
+  759  cd Desktop
+  760  ls
+  761  mkdir gitch
+  762  cd gitch
+  763  git init
+  764  git clone "https://ghp_ZaIWwcKDM2sZclyiasmAPFQJZfqm14U6tbE@github/gitch/rishi-tkd
+  765  it"d
+  766  cd Desktop
+  767  cd /
+  768  cd home 
+  769  cd administrator
+  770  cd Desktop
+  771  cd Project
+  772  ls
+  773  sudo check ownership project
+  774  sudo check onwership Project
+  775  check onwnership Project
+  776  check ownership "Rishi-tkd"
+  777  ll
+  778  ps
+  779  grep "*.txt"
+  780* 
+  781  grep "thursday.txt"
+  782  git clone "https://ghp_ZaWwcKDM2sZclyiamAPFQJZfqm14U6tbE@github.com/Rishi-tkd/JJK
+  783  git clone "https://ghp_ZaWwcKDM2sZclyiamAPFQJZfqm14U6tbE@github.com/Rishi-tk
+  784  history
+  785  git clone "https://ghp_ZaWwcKDM2sZclyiamAPFQJZfqm14U6tbE@github.com/Rishi-tkd/JJK.git"
+  786  cd JJK
+  787  touch gojo.txt
+  788  cat gojo.txt
+  789  cat > gojo.txt
+  790  cat gojo.txt
+  791  git add gojo.txt
+  792  git status
+  793  git commit -m "thommas"
+  794  git status
+  795  git push origin main
+  796  ls
+  797  cd home
+  798  cd /
+  799  cd home
+  800  cd administrator
+  801  cd Desktop
+  802  cd Project
+  803  grep "thursday.txt" thurs
+  804  grep -r "thursday.txt" thurs
+  805  nano script.sh
+  806  cd thurs
+  807  cat > thursday.txt
+  808  cd ..
+  809  grep -r "thursday kku aprm friday"
+  810  history
+  811  mkdir user
+  812  ls -ld
+  813  cd user
+  814  chmod 177 user
+  815  cd ..
+  816  chmod 177 user
+  817  mkdir group
+  818  chmod 070 group
+  819  ls -ld group
+  820  chmod 700 user
+  821  ls -ld user
+  822  mkdir others
+  823  chmod 007 group
+  824  ls -ld others
+  825  chmod 007 others
+  826  ls -ld others
+  827  chmod 070 group
+  828  ls -ld group
+  829  nano clean.sh
+  830  nano script.sh
+  831  nano clean.sh
+  832  nano script.sh
+  833  nano clean.sh
+  834  ./multiple.sh
+  835  chmod 777 multiple.sh
+  836  ./multiple.sh
+  837  nano multiple.sh
+  838  ./multiple.sh
+  839  nano multiple.sh
+  840  ./multiple.sh
+  841  nano multiple.sh
+  842  ./multiple.sh
+  843  nano multiple.sh
+  844  sh multiple.sh
+  845  nano multiple.sh
+  846  cat > thursday.txt
+  847  grip -l "byee"
+  848  grep -l "byee"
+  849  nano script.sh
+  850  history
+
